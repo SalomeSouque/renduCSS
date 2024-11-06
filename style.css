@@ -1,0 +1,74 @@
+header {
+    background-image: url(Rouge_portfoliov2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 1000px;
+
+    }
+    
+    .div1 { grid-area: 1 / 1 / 5 / 5; 
+        border: solid 1px;
+        background-image: url(bath.JPEG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .div2 { grid-area: 2 / 7 / 7 / 9;
+        border: solid 1px;
+        background-image: url(lac.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+    .div3 { grid-area: 8 / 6 / 10 / 11;
+        border: solid 1px;
+        background-image: url(plage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+     }
+    .div4 { grid-area: 6 / 2 / 10 / 4;
+        border: solid 1px;
+        background-image: url(car.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+     .overlay{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+nav{
+    position: sticky;
+    top: 50%;
+    right: 0;
+    overflow: hidden;
+    width: 70px;
+    background-color:#260F0F;
+    background-size: cover;
+    float: right;
+    border-radius: 15px 0px 0px 15px;
+}
+ul{
+    list-style: none;
+}
