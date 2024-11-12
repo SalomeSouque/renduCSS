@@ -59,34 +59,42 @@ h1{
 nav{
     position: sticky;
     top: 35%;
-    right: 0;
+    right: 1%;
     overflow: hidden;
     width: 20px;
     height: 120px;
     background-color: #4a21242b;
     background-size: cover;
     float: right;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 15px 15px 15px;
     padding: 1%;
 }
 ul{
+    display: flex;
     list-style: none;
-    padding: 0%;
+    padding: 1%;
+    margin: 0%;
+    flex-direction: column;
 }
 li{
     text-align: center;
     font-size: 25px;
     color: black;
 }
+
 footer{
     display: flex;
     background-color: #73030D;
     flex-direction: row-reverse;
+    margin-top: 20px;
 }
 .bas{
-    display: flex;
-    flex-direction: row;
+width: 100%; 
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
 }
+
 .partun{
     display: flex;
 }
@@ -96,8 +104,8 @@ footer{
 img{
     height: 400px;
     width: 400px;
-    margin: 3%;
-    border:solid #c063633e;
+    margin: 1%;
+    border:solid #000000 1px;
     border-radius: 3%;
     
 }
@@ -107,7 +115,13 @@ h2{
     font-weight: 700;
     color: rgb(0, 0, 0);
     font-size: 120px;
+    margin: 2%;
     text-align: center;
+}
+#aboutmeH2 {
+    width: 80vw;
+    margin-left: 30px;
+    text-align: start;
 }
 h3{
     font-family: "Syne", sans-serif;
@@ -139,7 +153,7 @@ a{
     transform: rotateZ(-90deg);
     FONT-SIZE: 68px;
     position: absolute;
-    top: 1628px;
+    top: 1483px;
     left: 60px;
 }
 .overlay{
@@ -151,6 +165,23 @@ a{
     display: flex;
     transform: rotateZ(90deg);
     position: absolute;
-    top: 1160px;
+    top: 1011px;
     right: -50px;
+}
+
+.para{
+    margin: 27px;
+    text-align: center;
+}
+
+.parties{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.imgmargin{
+    margin-right: 5%;
+    margin-left: 2%;
 }
