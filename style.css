@@ -56,11 +56,6 @@ h1{
         background-size: cover;
         background-position: center;
      }
-.overlay{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     }
 nav{
     position: sticky;
     top: 35%;
@@ -68,7 +63,7 @@ nav{
     overflow: hidden;
     width: 20px;
     height: 120px;
-    background-color:#260f0f74;
+    background-color: #4a21242b;
     background-size: cover;
     float: right;
     border-radius: 15px 0px 0px 15px;
@@ -85,7 +80,7 @@ li{
 }
 footer{
     display: flex;
-    background-color: #260f0fa7;
+    background-color: #73030D;
     flex-direction: row-reverse;
 }
 .bas{
@@ -118,9 +113,8 @@ h3{
     font-family: "Syne", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    color: aliceblue;
-    font-size: 100px;
-    background-color: #937a7a2a;
+    color: #f8eaebbb;
+    font-size: 80px;
     border-radius: 20px;
 }
 h4{
@@ -141,5 +135,22 @@ a{
     color: black;
 }
 #contacth3 {
-    text-orientation: sideways;
+    display: flex;
+    transform: rotateZ(-90deg);
+    FONT-SIZE: 68px;
+    position: absolute;
+    top: 1628px;
+    left: 60px;
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contacth2{
+    display: flex;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 1160px;
+    right: -50px;
 }
